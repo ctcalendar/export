@@ -18895,8 +18895,8 @@
         {
           "name": "LC",
           "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "overtime",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -18905,13 +18905,15 @@
           ],
           "recurrenceId": "series-LC",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": "1",
+          "partialValue": null
         },
         {
           "name": "MH",
           "role": "backSupport",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "overtime",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -18922,7 +18924,7 @@
           "recurrenceId": "series-MH",
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
-          "overtimeValue": null,
+          "overtimeValue": "1",
           "partialValue": null
         },
         {
@@ -18941,7 +18943,7 @@
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
-          "partialValue": "2"
+          "partialValue": "4"
         },
         {
           "name": "LY",
@@ -20451,21 +20453,6 @@
           "isException": false
         },
         {
-          "name": "LC",
-          "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "recurrenceId": "series-LC",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "MH",
           "role": "backSupport",
           "color": "#D4A5A5",
@@ -20482,6 +20469,21 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
+        },
+        {
+          "name": "TK",
+          "role": "backSupport",
+          "color": "#BCE29E",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "recurrenceId": "series-TK",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true
         },
         {
           "name": "LY",
@@ -21536,19 +21538,19 @@
           "isException": false
         },
         {
-          "name": "LC",
+          "name": "TK",
           "role": "backSupport",
-          "color": "#D4A5A5",
+          "color": "#BCE29E",
           "status": "normal",
           "recurringDaysOfWeek": [
-            1,
             2,
             3,
-            4
+            5,
+            6
           ],
-          "recurrenceId": "series-LC",
+          "recurrenceId": "series-TK",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true
         },
         {
           "name": "DC",
@@ -66396,19 +66398,19 @@
           "isException": false
         },
         {
-          "name": "TK",
+          "name": "LC",
           "role": "backSupport",
-          "color": "#BCE29E",
+          "color": "#D4A5A5",
           "status": "normal",
           "recurringDaysOfWeek": [
+            1,
             2,
             3,
-            5,
-            6
+            4
           ],
-          "recurrenceId": "series-TK",
+          "recurrenceId": "series-LC",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true
         },
         {
           "name": "DC",
@@ -66491,21 +66493,6 @@
           "isException": false
         },
         {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "DC",
           "role": "frontDesk",
           "color": "#BAE1FF",
@@ -66555,7 +66542,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "extra assistant"
+      "dayNotes": ""
     },
     "2025-09-05": {
       "items": [
