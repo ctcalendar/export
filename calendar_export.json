@@ -19874,18 +19874,17 @@
     "2025-08-12": {
       "items": [
         {
-          "name": "SC",
+          "name": "AL",
           "role": "doctor",
-          "color": "#FFB3BA",
+          "color": "#FFFFBA",
           "status": "normal",
           "recurringDaysOfWeek": [
-            1,
             2,
             3,
             4,
-            6
+            5
           ],
-          "recurrenceId": "series-SC",
+          "recurrenceId": "series-AL",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
         },
@@ -19905,40 +19904,9 @@
           "isException": false
         },
         {
-          "name": "AL",
+          "name": "SC",
           "role": "doctor",
-          "color": "#FFFFBA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-AL",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "DC",
-          "role": "frontDesk",
-          "color": "#BAE1FF",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-DC",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "MH",
-          "role": "frontDesk",
-          "color": "#E0BBE4",
+          "color": "#FFB3BA",
           "status": "normal",
           "recurringDaysOfWeek": [
             1,
@@ -19947,7 +19915,7 @@
             4,
             6
           ],
-          "recurrenceId": "series-MH",
+          "recurrenceId": "series-SC",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
         },
@@ -19996,10 +19964,26 @@
           "isException": false
         },
         {
+          "name": "DC",
+          "role": "frontDesk",
+          "color": "#BAE1FF",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-DC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
           "name": "LY",
           "role": "frontDesk",
-          "color": "#C7CEEA",
-          "status": "normal",
+          "color": "#D4A5A5",
+          "status": "partial",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -20009,17 +19993,14 @@
           ],
           "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        }
-      ],
-      "dayNotes": ""
-    },
-    "2025-08-13": {
-      "items": [
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "1"
+        },
         {
-          "name": "SC",
-          "role": "doctor",
-          "color": "#FFB3BA",
+          "name": "MH",
+          "role": "frontDesk",
+          "color": "#E0BBE4",
           "status": "normal",
           "recurringDaysOfWeek": [
             1,
@@ -20028,7 +20009,27 @@
             4,
             6
           ],
-          "recurrenceId": "series-SC",
+          "recurrenceId": "series-MH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        }
+      ],
+      "dayNotes": ""
+    },
+    "2025-08-13": {
+      "items": [
+        {
+          "name": "AL",
+          "role": "doctor",
+          "color": "#FFFFBA",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-AL",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
         },
@@ -20048,17 +20049,63 @@
           "isException": false
         },
         {
-          "name": "AL",
+          "name": "SC",
           "role": "doctor",
-          "color": "#FFFFBA",
+          "color": "#FFB3BA",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "recurrenceId": "series-SC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
+          "name": "JH",
+          "role": "backSupport",
+          "color": "#F3E5AB",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "recurrenceId": "series-JH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
+          "name": "LC",
+          "role": "backSupport",
+          "color": "#D4A5A5",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "recurrenceId": "series-LC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
+          "name": "TK",
+          "role": "backSupport",
+          "color": "#BCE29E",
           "status": "normal",
           "recurringDaysOfWeek": [
             2,
             3,
-            4,
-            5
+            5,
+            6
           ],
-          "recurrenceId": "series-AL",
+          "recurrenceId": "series-TK",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
         },
@@ -20079,67 +20126,6 @@
           "isException": false
         },
         {
-          "name": "MH",
-          "role": "frontDesk",
-          "color": "#E0BBE4",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            6
-          ],
-          "recurrenceId": "series-MH",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "LC",
-          "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "recurrenceId": "series-LC",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "JH",
-          "role": "backSupport",
-          "color": "#F3E5AB",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "recurrenceId": "series-JH",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "LY",
           "role": "frontDesk",
           "color": "#C7CEEA",
@@ -20154,6 +20140,24 @@
           "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
+        },
+        {
+          "name": "MH",
+          "role": "frontDesk",
+          "color": "#D4A5A5",
+          "status": "partial",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "recurrenceId": "series-MH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "4"
         }
       ],
       "dayNotes": ""
