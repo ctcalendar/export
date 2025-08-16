@@ -22176,7 +22176,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "AL maybe"
+      "dayNotes": ""
     },
     "2025-09-06": {
       "items": [
@@ -22579,7 +22579,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "AL Maybe"
+      "dayNotes": ""
     },
     "2025-09-10": {
       "items": [
@@ -22715,7 +22715,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "AL MAYBE"
+      "dayNotes": ""
     },
     "2025-09-11": {
       "items": [
@@ -22839,7 +22839,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "al maybe"
+      "dayNotes": ""
     },
     "2025-09-13": {
       "items": [
@@ -23095,21 +23095,6 @@
     "2025-09-16": {
       "items": [
         {
-          "name": "AL",
-          "role": "doctor",
-          "color": "#FFFFBA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-AL",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "CC",
           "role": "doctor",
           "color": "#FFDFBA",
@@ -23235,7 +23220,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "AL Maybe"
+      "dayNotes": ""
     },
     "2025-09-17": {
       "items": [
@@ -66706,7 +66691,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "AL maybe"
+      "dayNotes": ""
     },
     "2025-09-12": {
       "items": [
