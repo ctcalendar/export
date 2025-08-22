@@ -20941,7 +20941,7 @@
           "name": "LY",
           "role": "frontDesk",
           "color": "#D4A5A5",
-          "status": "partial",
+          "status": "normal",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -20953,7 +20953,7 @@
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
-          "partialValue": "2"
+          "partialValue": null
         }
       ],
       "dayNotes": ""
