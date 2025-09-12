@@ -67084,21 +67084,6 @@
           "isException": false
         },
         {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "DC",
           "role": "frontDesk",
           "color": "#BAE1FF",
@@ -67131,7 +67116,7 @@
           "isException": false
         }
       ],
-      "dayNotes": "extra assistant"
+      "dayNotes": "TK Vol off"
     },
     "2025-10-10": {
       "items": [
