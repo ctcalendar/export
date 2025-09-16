@@ -67622,21 +67622,6 @@
           "isException": false
         },
         {
-          "name": "CC",
-          "role": "doctor",
-          "color": "#FFDFBA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            5
-          ],
-          "recurrenceId": "series-CC",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "AD",
           "role": "backSupport",
           "color": "#FFCCE5",
@@ -67697,6 +67682,23 @@
           "isException": false
         },
         {
+          "name": "CC",
+          "role": "vacation",
+          "color": "#FFEAB2",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "recurrenceId": "series-CC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
           "name": "TK",
           "role": "vacation",
           "color": "#FFC9B2",
@@ -67714,7 +67716,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": ""
+      "dayNotes": "extra assistant"
     },
     "2025-11-21": {
       "items": [
