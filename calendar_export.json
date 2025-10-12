@@ -27530,9 +27530,9 @@
         },
         {
           "name": "TZ",
-          "role": "frontDesk",
+          "role": "vacation",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "vacation",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
@@ -27541,7 +27541,7 @@
           ],
           "recurrenceId": "series-TZ-1752532257993",
           "recurrenceMasterDate": "2025-07-26",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": "Janitor on vacation"
