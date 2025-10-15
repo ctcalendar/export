@@ -71087,19 +71087,6 @@
           "isException": false
         },
         {
-          "name": "AD",
-          "role": "backSupport",
-          "color": "#FFCCE5",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-AD-alt",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -71162,7 +71149,7 @@
           "isException": false
         }
       ],
-      "dayNotes": "extra assistant"
+      "dayNotes": "AD VOL OFF"
     },
     "2025-10-24": {
       "items": [
@@ -71190,13 +71177,6 @@
           "isException": false
         },
         {
-          "name": "AD",
-          "role": "backSupport",
-          "color": "#FFCCE5",
-          "status": "normal",
-          "isException": false
-        },
-        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -71259,7 +71239,7 @@
           "isException": false
         }
       ],
-      "dayNotes": "extra assistant"
+      "dayNotes": "ad vol off"
     },
     "2025-10-31": {
       "items": [
