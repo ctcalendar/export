@@ -25246,7 +25246,7 @@
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
-          "partialValue": "3"
+          "partialValue": "2.5"
         },
         {
           "name": "LC",
@@ -70957,8 +70957,8 @@
         {
           "name": "LY",
           "role": "frontDesk",
-          "color": "#C7CEEA",
-          "status": "normal",
+          "color": "#D4A5A5",
+          "status": "partial",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -70968,7 +70968,9 @@
           ],
           "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "1.5"
         }
       ],
       "dayNotes": "TK Vol off"
@@ -71423,7 +71425,7 @@
           "isException": false
         }
       ],
-      "dayNotes": "extra assistant"
+      "dayNotes": "extra assistant? tk off?"
     },
     "2025-11-14": {
       "items": [
