@@ -27036,8 +27036,8 @@
         {
           "name": "MH",
           "role": "frontDesk",
-          "color": "#E0BBE4",
-          "status": "normal",
+          "color": "#D4A5A5",
+          "status": "partial",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -27047,7 +27047,9 @@
           ],
           "recurrenceId": "series-MH",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "4"
         }
       ],
       "dayNotes": ""
@@ -38032,7 +38034,7 @@
           "isException": false
         }
       ],
-      "dayNotes": ""
+      "dayNotes": "LC off 3/5-3/19?"
     },
     "2026-03-07": {
       "items": [
