@@ -30374,18 +30374,6 @@
           "recurrenceMasterDate": "2025-01-01"
         },
         {
-          "name": "JL",
-          "role": "doctor",
-          "color": "#A8D8EA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-JL-saturdays",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -30401,8 +30389,23 @@
           "isException": false
         },
         {
-          "name": "MH",
+          "name": "TK",
           "role": "backSupport",
+          "color": "#BCE29E",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "recurrenceId": "series-TK",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
+          "name": "MH",
+          "role": "frontDesk",
           "color": "#D4A5A5",
           "status": "normal",
           "recurringDaysOfWeek": [
@@ -30417,21 +30420,6 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
-        },
-        {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
         },
         {
           "name": "TZ",
@@ -31010,6 +30998,18 @@
           "isException": false
         },
         {
+          "name": "JL",
+          "role": "doctor",
+          "color": "#A8D8EA",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-JL-saturdays",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true
+        },
+        {
           "name": "SC",
           "role": "doctor",
           "color": "#FFB3BA",
@@ -31041,23 +31041,8 @@
           "isException": false
         },
         {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "MH",
-          "role": "frontDesk",
+          "role": "backSupport",
           "color": "#D4A5A5",
           "status": "normal",
           "recurringDaysOfWeek": [
@@ -31072,6 +31057,21 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
+        },
+        {
+          "name": "TK",
+          "role": "backSupport",
+          "color": "#BCE29E",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "recurrenceId": "series-TK",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
         },
         {
           "name": "TZ",
@@ -32730,20 +32730,6 @@
           "isException": false
         },
         {
-          "name": "AD",
-          "role": "backSupport",
-          "color": "#FFCCE5",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            6
-          ],
-          "recurrenceId": "series-AD-normal",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -32819,7 +32805,7 @@
           "isException": false
         }
       ],
-      "dayNotes": ""
+      "dayNotes": "ad vol off"
     },
     "2026-01-05": {
       "items": [
