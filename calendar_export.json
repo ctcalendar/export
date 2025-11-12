@@ -28543,9 +28543,9 @@
         },
         {
           "name": "MH",
-          "role": "frontDesk",
-          "color": "#E0BBE4",
-          "status": "normal",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -28555,7 +28555,9 @@
           ],
           "recurrenceId": "series-MH",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
@@ -29701,9 +29703,9 @@
         },
         {
           "name": "MH",
-          "role": "frontDesk",
-          "color": "#E0BBE4",
-          "status": "normal",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -29713,7 +29715,9 @@
           ],
           "recurrenceId": "series-MH",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
