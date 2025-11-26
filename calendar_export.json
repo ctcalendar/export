@@ -33768,8 +33768,8 @@
         {
           "name": "JH",
           "role": "backSupport",
-          "color": "#F3E5AB",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "partial",
           "recurringDaysOfWeek": [
             3,
             4,
@@ -33778,7 +33778,9 @@
           ],
           "recurrenceId": "series-JH",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "4"
         },
         {
           "name": "LC",
