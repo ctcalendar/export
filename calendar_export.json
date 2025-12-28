@@ -33850,6 +33850,15 @@
           "isException": false
         },
         {
+          "name": "TZ",
+          "role": "frontDesk",
+          "color": "#D4A5A5",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "isException": false
+        },
+        {
           "name": "LY",
           "role": "vacation",
           "color": "#D4A5A5",
@@ -33868,7 +33877,7 @@
           "partialValue": null
         }
       ],
-      "dayNotes": "TZ?"
+      "dayNotes": ""
     },
     "2026-01-15": {
       "items": [
@@ -73383,9 +73392,9 @@
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "partial",
           "overtimeValue": null,
-          "partialValue": null
+          "partialValue": "2"
         }
       ],
       "dayNotes": ""
