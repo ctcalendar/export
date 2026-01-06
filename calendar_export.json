@@ -36011,21 +36011,6 @@
           "isException": false
         },
         {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
@@ -36067,6 +36052,23 @@
             6
           ],
           "recurrenceId": "series-MH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
+          "name": "TK",
+          "role": "vacation",
+          "color": "#FFC9B2",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "recurrenceId": "series-TK",
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
@@ -36686,21 +36688,6 @@
           "isException": false
         },
         {
-          "name": "TK",
-          "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
-          ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
@@ -36742,6 +36729,23 @@
             6
           ],
           "recurrenceId": "series-MH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
+          "name": "TK",
+          "role": "vacation",
+          "color": "#FFC9B2",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "recurrenceId": "series-TK",
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
