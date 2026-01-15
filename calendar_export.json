@@ -52114,6 +52114,15 @@
           "recurrenceId": "series-MH",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
+        },
+        {
+          "name": "TZ",
+          "role": "frontDesk",
+          "color": "#D4A5A5",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "isException": false
         }
       ],
       "dayNotes": ""
@@ -82445,46 +82454,6 @@
       ],
       "dayNotes": ""
     },
-    "2026-11-26": {
-      "items": [
-        {
-          "name": "TZ",
-          "role": "frontDesk",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-TZ-1766473914936",
-          "recurrenceMasterDate": "2026-03-05",
-          "isException": false
-        }
-      ],
-      "dayNotes": ""
-    },
-    "2026-12-25": {
-      "items": [
-        {
-          "name": "TZ",
-          "role": "frontDesk",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-TZ-1766473914936",
-          "recurrenceMasterDate": "2026-03-05",
-          "isException": false
-        }
-      ],
-      "dayNotes": ""
-    },
     "2027-01-01": {
       "items": [
         {
@@ -101478,6 +101447,106 @@
       "dayNotes": ""
     },
     "2026-08-30": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-09-06": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-09-07": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-09-13": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-09-20": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-09-27": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-04": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-11": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-18": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-25": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-01": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-08": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-15": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-22": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-29": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-06": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-13": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-20": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-27": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-26": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-25": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-03": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-10": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-17": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-24": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-31": {
       "items": [],
       "dayNotes": ""
     }
