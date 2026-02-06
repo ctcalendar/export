@@ -79230,22 +79230,6 @@
           "isException": false
         },
         {
-          "name": "LY",
-          "role": "frontDesk",
-          "color": "#C7CEEA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-LY",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
@@ -79273,6 +79257,24 @@
             5
           ],
           "recurrenceId": "series-DC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
+          "name": "LY",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
