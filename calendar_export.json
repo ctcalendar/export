@@ -36781,7 +36781,17 @@
       "dayNotes": "chinese new year"
     },
     "2026-02-19": {
-      "items": [],
+      "items": [
+        {
+          "name": "LY",
+          "role": "frontDesk",
+          "color": "#D4A5A5",
+          "status": "partial",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": "0.5"
+        }
+      ],
       "dayNotes": "chinese new year"
     },
     "2026-02-21": {
