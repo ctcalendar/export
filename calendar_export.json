@@ -79999,13 +79999,6 @@
           "isException": false
         },
         {
-          "name": "LY",
-          "role": "frontDesk",
-          "color": "#C7CEEA",
-          "status": "normal",
-          "isException": false
-        },
-        {
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
@@ -80035,6 +80028,15 @@
           "recurrenceId": "series-AL-1758866004860",
           "recurrenceMasterDate": "2026-03-02",
           "isException": true
+        },
+        {
+          "name": "LY",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
