@@ -50870,6 +50870,15 @@
           "isException": false
         },
         {
+          "name": "JL",
+          "role": "doctor",
+          "color": "#FFB2C9",
+          "status": "extra",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
           "name": "SC",
           "role": "doctor",
           "color": "#FFB3BA",
