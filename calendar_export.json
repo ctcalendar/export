@@ -75423,9 +75423,9 @@
           "name": "TZ",
           "role": "backSupport",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "partial",
           "overtimeValue": null,
-          "partialValue": null,
+          "partialValue": "2",
           "recurringDaysOfWeek": [
             4,
             5
