@@ -46245,8 +46245,8 @@
         {
           "name": "LY",
           "role": "frontDesk",
-          "color": "#C7CEEA",
-          "status": "normal",
+          "color": "#D4A5A5",
+          "status": "partial",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -46256,7 +46256,9 @@
           ],
           "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "3.5"
         },
         {
           "name": "AD",
