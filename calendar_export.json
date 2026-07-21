@@ -81883,21 +81883,6 @@
           "isException": false
         },
         {
-          "name": "TZ",
-          "role": "frontDesk",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-TZ-1766473914936",
-          "recurrenceMasterDate": "2026-03-05",
-          "isException": false
-        },
-        {
           "name": "CC",
           "role": "doctor",
           "color": "#FFEAB2",
@@ -81915,20 +81900,19 @@
           "isException": false
         },
         {
-          "name": "LY",
-          "role": "frontDesk",
-          "color": "#D4A5A5",
+          "name": "AD",
+          "role": "backSupport",
+          "color": "#FFC9B2",
           "status": "normal",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
             1,
             2,
-            3,
-            4,
-            5
+            5,
+            6
           ],
-          "recurrenceId": "series-LY-1783408325807",
+          "recurrenceId": "series-AD-1783408509044",
           "recurrenceMasterDate": "2027-01-04",
           "isException": false
         },
@@ -81967,21 +81951,37 @@
           "isException": false
         },
         {
-          "name": "AD",
-          "role": "backSupport",
-          "color": "#FFC9B2",
+          "name": "LY",
+          "role": "frontDesk",
+          "color": "#D4A5A5",
           "status": "normal",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
             1,
             2,
-            5,
-            6
+            3,
+            4,
+            5
           ],
-          "recurrenceId": "series-AD-1783408509044",
+          "recurrenceId": "series-LY-1783408325807",
           "recurrenceMasterDate": "2027-01-04",
           "isException": false
+        },
+        {
+          "name": "TZ",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            4,
+            5
+          ],
+          "recurrenceId": "series-TZ-1766473914936",
+          "recurrenceMasterDate": "2026-03-05",
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -86084,9 +86084,9 @@
         },
         {
           "name": "TZ",
-          "role": "frontDesk",
+          "role": "vacation",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "vacation",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
@@ -86095,7 +86095,7 @@
           ],
           "recurrenceId": "series-TZ-1758866766082",
           "recurrenceMasterDate": "2026-07-27",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -95042,22 +95042,6 @@
     "2027-05-20": {
       "items": [
         {
-          "name": "AL",
-          "role": "doctor",
-          "color": "#C9B2FF",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            1,
-            4,
-            5
-          ],
-          "recurrenceId": "series-AL-1783408936865",
-          "recurrenceMasterDate": "2027-03-01",
-          "isException": false
-        },
-        {
           "name": "BW",
           "role": "doctor",
           "color": "#B2C9FF",
@@ -95176,6 +95160,22 @@
           "recurrenceId": "series-TZ-1766473914936",
           "recurrenceMasterDate": "2026-03-05",
           "isException": false
+        },
+        {
+          "name": "AL",
+          "role": "vacation",
+          "color": "#C9B2FF",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            1,
+            4,
+            5
+          ],
+          "recurrenceId": "series-AL-1783408936865",
+          "recurrenceMasterDate": "2027-03-01",
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -140472,6 +140472,266 @@
       "dayNotes": ""
     },
     "2026-09-27": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-04": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-11": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-18": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-10-25": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-01": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-08": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-15": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-22": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-26": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-29": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-06": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-13": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-20": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-25": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-12-27": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-01": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-03": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-10": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-17": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-24": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-01-31": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-02-07": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-02-14": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-02-15": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-02-21": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-02-28": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-06-06": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-06-13": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-06-20": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-06-27": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-07-04": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-07-11": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-07-18": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-07-25": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-08-01": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-08-08": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-08-15": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-08-22": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-08-29": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-09-05": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-09-12": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-09-19": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-09-26": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-10-03": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-10-10": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-10-17": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-10-24": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-10-31": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-11-07": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-11-14": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-11-21": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-11-28": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-12-05": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-12-12": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-12-19": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2027-12-26": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-02": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-08": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-09": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-15": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-16": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-22": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-23": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-29": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2028-01-30": {
       "items": [],
       "dayNotes": ""
     }
