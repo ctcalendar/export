@@ -59045,6 +59045,15 @@
           "isException": false
         },
         {
+          "name": "AD",
+          "role": "backSupport",
+          "color": "#FFC9B2",
+          "status": "extra",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -59076,21 +59085,6 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
-        },
-        {
-          "name": "TZ",
-          "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-TZ-1766473914936",
-          "recurrenceMasterDate": "2026-03-05",
-          "isException": true
         },
         {
           "name": "DC",
@@ -59140,12 +59134,51 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
+        },
+        {
+          "name": "TZ",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            4,
+            5
+          ],
+          "recurrenceId": "series-TZ-1766473914936",
+          "recurrenceMasterDate": "2026-03-05",
+          "isException": true
         }
       ],
       "dayNotes": ""
     },
     "2026-10-03": {
       "items": [
+        {
+          "name": "BW",
+          "role": "doctor",
+          "color": "#BAFFC9",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-BW",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
+          "name": "JL",
+          "role": "doctor",
+          "color": "#A8D8EA",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-JL-saturdays",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
         {
           "name": "SC",
           "role": "doctor",
@@ -59163,34 +59196,6 @@
           "isException": false
         },
         {
-          "name": "BW",
-          "role": "doctor",
-          "color": "#BAFFC9",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-BW",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "MH",
-          "role": "frontDesk",
-          "color": "#E0BBE4",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            6
-          ],
-          "recurrenceId": "series-MH",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "AD",
           "role": "backSupport",
           "color": "#FFCCE5",
@@ -59201,18 +59206,6 @@
             6
           ],
           "recurrenceId": "series-AD-normal",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "JL",
-          "role": "doctor",
-          "color": "#A8D8EA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-JL-saturdays",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
         },
@@ -59247,10 +59240,26 @@
           "isException": false
         },
         {
-          "name": "TZ",
+          "name": "MH",
           "role": "frontDesk",
-          "color": "#D4A5A5",
+          "color": "#E0BBE4",
           "status": "normal",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "recurrenceId": "series-MH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
+          "name": "TZ",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
@@ -59259,7 +59268,7 @@
           ],
           "recurrenceId": "series-TZ-1758866766082",
           "recurrenceMasterDate": "2026-07-27",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -59346,19 +59355,13 @@
           "partialValue": null
         },
         {
-          "name": "TZ",
+          "name": "TK",
           "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "extra",
+          "isException": false,
           "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            1,
-            6
-          ],
-          "recurrenceId": "series-TZ-1758866766082",
-          "recurrenceMasterDate": "2026-07-27",
-          "isException": true
+          "partialValue": null
         },
         {
           "name": "DC",
@@ -59408,6 +59411,21 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
+        },
+        {
+          "name": "TZ",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            1,
+            6
+          ],
+          "recurrenceId": "series-TZ-1758866766082",
+          "recurrenceMasterDate": "2026-07-27",
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -59763,6 +59781,15 @@
           "isException": false
         },
         {
+          "name": "AD",
+          "role": "backSupport",
+          "color": "#FFC9B2",
+          "status": "extra",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -59794,21 +59821,6 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
-        },
-        {
-          "name": "TZ",
-          "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-TZ-1766473914936",
-          "recurrenceMasterDate": "2026-03-05",
-          "isException": true
         },
         {
           "name": "DC",
@@ -59858,6 +59870,21 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
+        },
+        {
+          "name": "TZ",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            4,
+            5
+          ],
+          "recurrenceId": "series-TZ-1766473914936",
+          "recurrenceMasterDate": "2026-03-05",
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -59966,9 +59993,9 @@
         },
         {
           "name": "TZ",
-          "role": "frontDesk",
+          "role": "vacation",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "vacation",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
@@ -59977,7 +60004,7 @@
           ],
           "recurrenceId": "series-TZ-1758866766082",
           "recurrenceMasterDate": "2026-07-27",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -60064,19 +60091,13 @@
           "partialValue": null
         },
         {
-          "name": "TZ",
+          "name": "TK",
           "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "extra",
+          "isException": false,
           "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            1,
-            6
-          ],
-          "recurrenceId": "series-TZ-1758866766082",
-          "recurrenceMasterDate": "2026-07-27",
-          "isException": true
+          "partialValue": null
         },
         {
           "name": "LY",
@@ -60128,6 +60149,21 @@
           "isException": true,
           "overtimeValue": null,
           "partialValue": null
+        },
+        {
+          "name": "TZ",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            1,
+            6
+          ],
+          "recurrenceId": "series-TZ-1758866766082",
+          "recurrenceMasterDate": "2026-07-27",
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -78528,9 +78564,9 @@
         },
         {
           "name": "TZ",
-          "role": "frontDesk",
+          "role": "vacation",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "vacation",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
@@ -78539,13 +78575,46 @@
           ],
           "recurrenceId": "series-TZ-1766473914936",
           "recurrenceMasterDate": "2026-03-05",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
     },
     "2026-10-09": {
       "items": [
+        {
+          "name": "AL",
+          "role": "doctor",
+          "color": "#C9B2FF",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            1,
+            4,
+            5
+          ],
+          "recurrenceId": "series-AL-1758866004860",
+          "recurrenceMasterDate": "2026-03-02",
+          "isException": false
+        },
+        {
+          "name": "BW",
+          "role": "doctor",
+          "color": "#B2C9FF",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-BW-1758866026727",
+          "recurrenceMasterDate": "2026-03-03",
+          "isException": false
+        },
         {
           "name": "CC",
           "role": "doctor",
@@ -78558,22 +78627,6 @@
             5
           ],
           "recurrenceId": "series-CC",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
-          "name": "DC",
-          "role": "frontDesk",
-          "color": "#BAE1FF",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-DC",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
         },
@@ -78621,6 +78674,22 @@
           "isException": false
         },
         {
+          "name": "DC",
+          "role": "frontDesk",
+          "color": "#BAE1FF",
+          "status": "normal",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-DC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": false
+        },
+        {
           "name": "LY",
           "role": "frontDesk",
           "color": "#C7CEEA",
@@ -78637,43 +78706,10 @@
           "isException": false
         },
         {
-          "name": "AL",
-          "role": "doctor",
-          "color": "#C9B2FF",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            1,
-            4,
-            5
-          ],
-          "recurrenceId": "series-AL-1758866004860",
-          "recurrenceMasterDate": "2026-03-02",
-          "isException": false
-        },
-        {
-          "name": "BW",
-          "role": "doctor",
-          "color": "#B2C9FF",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-BW-1758866026727",
-          "recurrenceMasterDate": "2026-03-03",
-          "isException": false
-        },
-        {
           "name": "TZ",
-          "role": "frontDesk",
+          "role": "vacation",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "vacation",
           "overtimeValue": null,
           "partialValue": null,
           "recurringDaysOfWeek": [
@@ -78682,7 +78718,7 @@
           ],
           "recurrenceId": "series-TZ-1766473914936",
           "recurrenceMasterDate": "2026-03-05",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
@@ -78766,19 +78802,19 @@
           "isException": false
         },
         {
-          "name": "TK",
+          "name": "TZ",
           "role": "backSupport",
-          "color": "#BCE29E",
+          "color": "#D4A5A5",
           "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
           "recurringDaysOfWeek": [
-            2,
-            3,
-            5,
-            6
+            4,
+            5
           ],
-          "recurrenceId": "series-TK",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "recurrenceId": "series-TZ-1766473914936",
+          "recurrenceMasterDate": "2026-03-05",
+          "isException": true
         },
         {
           "name": "DC",
@@ -78813,19 +78849,21 @@
           "isException": false
         },
         {
-          "name": "TZ",
-          "role": "frontDesk",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
+          "name": "TK",
+          "role": "vacation",
+          "color": "#FFC9B2",
+          "status": "vacation",
           "recurringDaysOfWeek": [
-            4,
-            5
+            2,
+            3,
+            5,
+            6
           ],
-          "recurrenceId": "series-TZ-1766473914936",
-          "recurrenceMasterDate": "2026-03-05",
-          "isException": false
+          "recurrenceId": "series-TK",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
