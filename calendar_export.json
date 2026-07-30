@@ -52741,23 +52741,6 @@
           "isException": false
         },
         {
-          "name": "BW",
-          "role": "doctor",
-          "color": "#B2C9FF",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-BW-1758866026727",
-          "recurrenceMasterDate": "2026-03-03",
-          "isException": false
-        },
-        {
           "name": "SC",
           "role": "doctor",
           "color": "#FFB3BA",
@@ -52802,24 +52785,6 @@
           "recurrenceId": "series-LC",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
-        },
-        {
-          "name": "MH",
-          "role": "backSupport",
-          "color": "#D4A5A5",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            6
-          ],
-          "recurrenceId": "series-MH",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": true,
-          "overtimeValue": null,
-          "partialValue": null
         },
         {
           "name": "DC",
@@ -52867,6 +52832,41 @@
           "recurrenceId": "series-TZ-1766473914936",
           "recurrenceMasterDate": "2026-03-05",
           "isException": false
+        },
+        {
+          "name": "BW",
+          "role": "vacation",
+          "color": "#B2C9FF",
+          "status": "vacation",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-BW-1758866026727",
+          "recurrenceMasterDate": "2026-03-03",
+          "isException": true
+        },
+        {
+          "name": "MH",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "recurrenceId": "series-MH",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
