@@ -77291,9 +77291,9 @@
           "name": "AL",
           "role": "doctor",
           "color": "#C9B2FF",
-          "status": "normal",
+          "status": "partial",
           "overtimeValue": null,
-          "partialValue": null,
+          "partialValue": "4",
           "recurringDaysOfWeek": [
             1,
             4,
@@ -77301,7 +77301,7 @@
           ],
           "recurrenceId": "series-AL-1758866004860",
           "recurrenceMasterDate": "2026-03-02",
-          "isException": false
+          "isException": true
         },
         {
           "name": "BW",
