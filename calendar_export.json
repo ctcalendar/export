@@ -77291,9 +77291,9 @@
           "name": "AL",
           "role": "doctor",
           "color": "#C9B2FF",
-          "status": "partial",
+          "status": "normal",
           "overtimeValue": null,
-          "partialValue": "4",
+          "partialValue": null,
           "recurringDaysOfWeek": [
             1,
             4,
@@ -77338,15 +77338,17 @@
         {
           "name": "AD",
           "role": "backSupport",
-          "color": "#FFCCE5",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "partial",
           "recurringDaysOfWeek": [
             4,
             5
           ],
           "recurrenceId": "series-AD-alt",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": true
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "4"
         },
         {
           "name": "JH",
