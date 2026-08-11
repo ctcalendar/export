@@ -53835,16 +53835,16 @@
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "partial",
           "overtimeValue": null,
-          "partialValue": null,
+          "partialValue": "3",
           "recurringDaysOfWeek": [
             1,
             6
           ],
           "recurrenceId": "series-TZ-1758866766082",
           "recurrenceMasterDate": "2026-07-27",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
