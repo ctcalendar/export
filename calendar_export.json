@@ -54813,8 +54813,8 @@
         {
           "name": "TK",
           "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "overtime",
           "recurringDaysOfWeek": [
             2,
             3,
@@ -54823,7 +54823,9 @@
           ],
           "recurrenceId": "series-TK",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": "1",
+          "partialValue": null
         },
         {
           "name": "DC",
