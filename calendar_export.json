@@ -53110,8 +53110,8 @@
         {
           "name": "LY",
           "role": "frontDesk",
-          "color": "#C7CEEA",
-          "status": "normal",
+          "color": "#D4A5A5",
+          "status": "partial",
           "recurringDaysOfWeek": [
             1,
             2,
@@ -53121,7 +53121,9 @@
           ],
           "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "1"
         },
         {
           "name": "TZ",
@@ -55282,16 +55284,16 @@
           "name": "TZ",
           "role": "frontDesk",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "partial",
           "overtimeValue": null,
-          "partialValue": null,
+          "partialValue": "1.5",
           "recurringDaysOfWeek": [
             1,
             6
           ],
           "recurrenceId": "series-TZ-1758866766082",
           "recurrenceMasterDate": "2026-07-27",
-          "isException": false
+          "isException": true
         }
       ],
       "dayNotes": ""
