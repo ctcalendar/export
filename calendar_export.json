@@ -56668,14 +56668,6 @@
           "isException": false
         },
         {
-          "name": "JH",
-          "role": "backSupport",
-          "color": "#FFC9B2",
-          "status": "extra",
-          "overtimeValue": null,
-          "partialValue": null
-        },
-        {
           "name": "LC",
           "role": "backSupport",
           "color": "#FFC9B2",
