@@ -78844,19 +78844,6 @@
           "isException": false
         },
         {
-          "name": "AD",
-          "role": "backSupport",
-          "color": "#FFCCE5",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            4,
-            5
-          ],
-          "recurrenceId": "series-AD-alt",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": true
-        },
-        {
           "name": "JH",
           "role": "backSupport",
           "color": "#F3E5AB",
@@ -78917,6 +78904,21 @@
           "recurrenceId": "series-LY",
           "recurrenceMasterDate": "2025-01-01",
           "isException": false
+        },
+        {
+          "name": "AD",
+          "role": "vacation",
+          "color": "#FFC9B2",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            4,
+            5
+          ],
+          "recurrenceId": "series-AD-alt",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         },
         {
           "name": "AL",
