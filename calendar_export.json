@@ -67949,22 +67949,6 @@
           "partialValue": null
         },
         {
-          "name": "DC",
-          "role": "frontDesk",
-          "color": "#BAE1FF",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "recurrenceId": "series-DC",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "LY",
           "role": "frontDesk",
           "color": "#C7CEEA",
@@ -68026,6 +68010,24 @@
           "recurrenceId": "series-AL-1758866004860",
           "recurrenceMasterDate": "2026-03-02",
           "isException": true
+        },
+        {
+          "name": "DC",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "recurrenceId": "series-DC",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
@@ -80470,19 +80472,12 @@
         },
         {
           "name": "MH",
-          "role": "backSupport",
+          "role": "frontDesk",
           "color": "#D4A5A5",
           "status": "normal",
           "isException": false,
           "overtimeValue": null,
           "partialValue": null
-        },
-        {
-          "name": "DC",
-          "role": "frontDesk",
-          "color": "#BAE1FF",
-          "status": "normal",
-          "isException": false
         },
         {
           "name": "TZ",
@@ -80514,6 +80509,15 @@
           "recurrenceId": "series-AL-1758866004860",
           "recurrenceMasterDate": "2026-03-02",
           "isException": true
+        },
+        {
+          "name": "DC",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": null
         },
         {
           "name": "LY",
@@ -83530,13 +83534,6 @@
           "isException": false
         },
         {
-          "name": "DC",
-          "role": "frontDesk",
-          "color": "#BAE1FF",
-          "status": "normal",
-          "isException": false
-        },
-        {
           "name": "LY",
           "role": "frontDesk",
           "color": "#C7CEEA",
@@ -83549,6 +83546,15 @@
           "color": "#E0BBE4",
           "status": "normal",
           "isException": false
+        },
+        {
+          "name": "DC",
+          "role": "vacation",
+          "color": "#D4A5A5",
+          "status": "vacation",
+          "isException": false,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
