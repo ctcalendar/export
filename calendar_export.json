@@ -66351,15 +66351,12 @@
     "2026-12-12": {
       "items": [
         {
-          "name": "BW",
+          "name": "AL",
           "role": "doctor",
-          "color": "#BAFFC9",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-BW",
-          "recurrenceMasterDate": "2025-01-01",
+          "color": "#C9B2FF",
+          "status": "extra",
+          "overtimeValue": null,
+          "partialValue": null,
           "isException": false
         },
         {
@@ -66464,6 +66461,20 @@
           "recurrenceId": "series-TZ-1758866766082",
           "recurrenceMasterDate": "2026-07-27",
           "isException": false
+        },
+        {
+          "name": "BW",
+          "role": "vacation",
+          "color": "#B2C9FF",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-BW",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
         }
       ],
       "dayNotes": ""
