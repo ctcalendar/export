@@ -61354,9 +61354,9 @@
           "name": "TZ",
           "role": "backSupport",
           "color": "#D4A5A5",
-          "status": "normal",
+          "status": "partial",
           "overtimeValue": null,
-          "partialValue": null,
+          "partialValue": "1",
           "recurringDaysOfWeek": [
             4,
             5
@@ -79129,8 +79129,8 @@
         {
           "name": "TK",
           "role": "backSupport",
-          "color": "#BCE29E",
-          "status": "normal",
+          "color": "#FFC9B2",
+          "status": "partial",
           "recurringDaysOfWeek": [
             2,
             3,
@@ -79139,7 +79139,9 @@
           ],
           "recurrenceId": "series-TK",
           "recurrenceMasterDate": "2025-01-01",
-          "isException": false
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": "1"
         },
         {
           "name": "TZ",
