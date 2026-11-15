@@ -86349,6 +86349,15 @@
     "2027-01-16": {
       "items": [
         {
+          "name": "AL",
+          "role": "doctor",
+          "color": "#C9B2FF",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "isException": false
+        },
+        {
           "name": "JL",
           "role": "doctor",
           "color": "#FFB2C9",
@@ -86389,6 +86398,20 @@
           ],
           "recurrenceId": "series-JH-1783408381125",
           "recurrenceMasterDate": "2027-01-06",
+          "isException": false
+        },
+        {
+          "name": "KD",
+          "role": "backSupport",
+          "color": "#FFC9B2",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-KD-1794469554149",
+          "recurrenceMasterDate": "2027-01-02",
           "isException": false
         },
         {
@@ -86454,20 +86477,6 @@
           "recurrenceId": "series-BW-1783408572329",
           "recurrenceMasterDate": "2027-01-02",
           "isException": true
-        },
-        {
-          "name": "KD",
-          "role": "backSupport",
-          "color": "#FFC9B2",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-KD-1794469554149",
-          "recurrenceMasterDate": "2027-01-02",
-          "isException": false
         }
       ],
       "dayNotes": ""
@@ -89794,6 +89803,15 @@
     "2027-05-08": {
       "items": [
         {
+          "name": "AL",
+          "role": "doctor",
+          "color": "#C9B2FF",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "isException": false
+        },
+        {
           "name": "CC",
           "role": "doctor",
           "color": "#FFEAB2",
@@ -89835,6 +89853,20 @@
           ],
           "recurrenceId": "series-JH-1783408381125",
           "recurrenceMasterDate": "2027-01-06",
+          "isException": false
+        },
+        {
+          "name": "KD",
+          "role": "backSupport",
+          "color": "#FFC9B2",
+          "status": "normal",
+          "overtimeValue": null,
+          "partialValue": null,
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-KD-1794469554149",
+          "recurrenceMasterDate": "2027-01-02",
           "isException": false
         },
         {
@@ -89900,20 +89932,6 @@
           "recurrenceId": "series-BW-1783408572329",
           "recurrenceMasterDate": "2027-01-02",
           "isException": true
-        },
-        {
-          "name": "KD",
-          "role": "backSupport",
-          "color": "#FFC9B2",
-          "status": "normal",
-          "overtimeValue": null,
-          "partialValue": null,
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-KD-1794469554149",
-          "recurrenceMasterDate": "2027-01-02",
-          "isException": false
         }
       ],
       "dayNotes": ""
@@ -143055,6 +143073,30 @@
       "dayNotes": ""
     },
     "2026-12-27": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-01": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-08": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-15": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-22": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-26": {
+      "items": [],
+      "dayNotes": ""
+    },
+    "2026-11-29": {
       "items": [],
       "dayNotes": ""
     }
