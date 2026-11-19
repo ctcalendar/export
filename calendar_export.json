@@ -64409,18 +64409,6 @@
     "2026-11-21": {
       "items": [
         {
-          "name": "JL",
-          "role": "doctor",
-          "color": "#A8D8EA",
-          "status": "normal",
-          "recurringDaysOfWeek": [
-            6
-          ],
-          "recurrenceId": "series-JL-saturdays",
-          "recurrenceMasterDate": "2025-01-01",
-          "isException": false
-        },
-        {
           "name": "SC",
           "role": "doctor",
           "color": "#FFB3BA",
@@ -64532,6 +64520,20 @@
             6
           ],
           "recurrenceId": "series-BW",
+          "recurrenceMasterDate": "2025-01-01",
+          "isException": true,
+          "overtimeValue": null,
+          "partialValue": null
+        },
+        {
+          "name": "JL",
+          "role": "vacation",
+          "color": "#FFB2C9",
+          "status": "vacation",
+          "recurringDaysOfWeek": [
+            6
+          ],
+          "recurrenceId": "series-JL-saturdays",
           "recurrenceMasterDate": "2025-01-01",
           "isException": true,
           "overtimeValue": null,
